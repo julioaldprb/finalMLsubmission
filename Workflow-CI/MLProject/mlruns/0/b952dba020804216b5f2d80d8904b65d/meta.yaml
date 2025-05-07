@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/File%20Ku/Laskar%20AI/Membuat%20Model%20Machine%20Learning/Workflow-CI/MLProject/mlruns/0/b952dba020804216b5f2d80d8904b65d/artifacts
+end_time: 1746461475706
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b952dba020804216b5f2d80d8904b65d
+run_name: nervous-steed-757
+run_uuid: b952dba020804216b5f2d80d8904b65d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746461449368
+status: 3
+tags: []
+user_id: USER

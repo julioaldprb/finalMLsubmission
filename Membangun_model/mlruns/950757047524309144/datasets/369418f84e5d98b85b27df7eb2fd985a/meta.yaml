@@ -1,0 +1,12 @@
+digest: 6ebb6728
+name: dataset
+profile: '{"num_rows": 308, "num_elements": 2464}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "cylinders", "required": true},
+  {"type": "double", "name": "displacement", "required": true}, {"type": "double",
+  "name": "horsepower", "required": true}, {"type": "double", "name": "weight", "required":
+  true}, {"type": "double", "name": "acceleration", "required": true}, {"type": "double",
+  "name": "model_year", "required": true}, {"type": "boolean", "name": "origin_japan",
+  "required": true}, {"type": "boolean", "name": "origin_usa", "required": true}]}'
+source: '{"tags": {"mlflow.user": "USER", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code

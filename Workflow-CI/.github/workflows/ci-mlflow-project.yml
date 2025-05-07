@@ -1,0 +1,35 @@
+# .workflow/ci-mlflow-project.yml
+name: CI – MLflow Project
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  run-mlflow-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Miniconda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+          python-version: 3.10
+          activate-environment: mlflow-env
+          environment-file: MLProject/conda.yaml
+
+      - name: Run MLflow Project
+        run: |
+          mlflow run MLProject \
+            -P input_data=MLProject/namadataset_preprocessing/Automobile_clean.csv \
+            -P output_model_path=artifacts/model
+
+      - name: Upload model artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: trained-model
+          path: artifacts/model

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/File%20Ku/Laskar%20AI/Membuat%20Model%20Machine%20Learning/Workflow-CI/MLProject/mlruns/0/5e26ed99caac4e1b926d2c99152fb75a/artifacts
+end_time: 1746461344866
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e26ed99caac4e1b926d2c99152fb75a
+run_name: youthful-swan-866
+run_uuid: 5e26ed99caac4e1b926d2c99152fb75a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746461319271
+status: 4
+tags: []
+user_id: USER

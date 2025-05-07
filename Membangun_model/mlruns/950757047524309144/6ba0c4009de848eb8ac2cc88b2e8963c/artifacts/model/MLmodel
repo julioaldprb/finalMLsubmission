@@ -1,0 +1,32 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 989570
+model_uuid: d03315184aed4890bc5d50a4d66594c9
+prompts: null
+run_id: 6ba0c4009de848eb8ac2cc88b2e8963c
+signature:
+  inputs: '[{"type": "double", "name": "cylinders", "required": true}, {"type": "double",
+    "name": "displacement", "required": true}, {"type": "double", "name": "horsepower",
+    "required": true}, {"type": "double", "name": "weight", "required": true}, {"type":
+    "double", "name": "acceleration", "required": true}, {"type": "double", "name":
+    "model_year", "required": true}, {"type": "boolean", "name": "origin_japan", "required":
+    true}, {"type": "boolean", "name": "origin_usa", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-03 06:59:28.563909'
