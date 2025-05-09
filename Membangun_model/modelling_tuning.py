@@ -12,7 +12,6 @@ import mlflow.sklearn
 # ————————————————
 experiment_name = "mpg_classification_tuning"
 mlflow.set_experiment(experiment_name)
-mlflow.sklearn.autolog()
 
 # ————————————————
 # 2. Load Dataset
