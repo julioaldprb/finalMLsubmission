@@ -32,7 +32,7 @@ Membuat-Model-Machine-Learning/
 │   ├── prometheus_exporter.py             # setup Prometheus client
 │   └── prometheus.yml                     # konfigurasi Prometheus
 │
-├── Workflow-CI/
+├── Workflow-CI/Workflow-CI.txt
 │   ├── .github/workflows/ci-mlflow-project.yml  # GitHub Actions CI
 │   └── MLProject/
 │       ├── MLproject                      # spec MLflow Projects
